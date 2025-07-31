@@ -1,2 +1,2 @@
-# 忽略 docs 目录下的 Developer's_Commentary.md 文件
-docs/Developer's_Commentary.md
+# 忽略 DevGuide 目录
+DevGuide/
