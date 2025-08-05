@@ -6,7 +6,7 @@ echo "========================================"
 echo
 
 echo "正在进入Web目录..."
-cd src/web
+cd web
 
 echo "正在安装依赖..."
 npm install

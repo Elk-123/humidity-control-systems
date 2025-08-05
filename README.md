@@ -14,21 +14,19 @@
 
 ```
 humidity-control-systems/
-├── src/
-│   ├── hardware/              # ESP32固件代码
-│   │   ├── main.cpp              # 主固件（含WiFi和MQTT）
-│   │   ├── test_firmware.cpp     # 测试固件（仅串口）
-│   │   └── test_firmware_with_relay.cpp  # 测试固件（含继电器）
-│   └── web/                   # React Web前端
-│       ├── src/
-│       │   ├── components/        # React组件
-│       │   ├── services/          # API服务
-│       │   └── ...
-│       └── package.json
-├── docs/                     # 项目文档
-├── scripts/                  # 启动脚本
-├── dependencies/             # 依赖管理
-└── platformio.ini           # PlatformIO配置
+├── firmware/                # ESP32固件代码
+│   ├── main.cpp                # 主固件（含WiFi和MQTT）
+│   ├── test_firmware.cpp       # 测试固件（仅串口）
+│   └── test_firmware_with_relay.cpp  # 测试固件（含继电器）
+├── web/                     # React Web前端
+│   ├── src/                     # 前端源代码
+│   │   ├── components/          # React组件
+│   │   ├── services/            # API服务
+│   │   └── ...
+│   └── package.json
+├── docs/                   # 项目文档
+├── scripts/                # 启动脚本
+└── platformio.ini          # PlatformIO配置
 ```
 
 ## 快速开始
