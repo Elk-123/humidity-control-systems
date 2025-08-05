@@ -1,0 +1,12 @@
+# PlatformIO and build-related files
+.pio/
+.vscode/
+*.bin
+*.elf
+
+# Dependencies
+.pio/libdeps/
+
+# Other common ignore patterns
+*.o
+*.d

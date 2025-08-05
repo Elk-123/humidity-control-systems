@@ -1,0 +1,19 @@
+{
+  "libraries": [
+    {
+      "name": "DHT sensor library",
+      "version": "1.4.6",
+      "author": "adafruit"
+    },
+    {
+      "name": "PID Library",
+      "version": "1.2.1",
+      "author": "br3ttb"
+    },
+    {
+      "name": "PubSubClient",
+      "version": "2.8",
+      "author": "knolleary"
+    }
+  ]
+}
